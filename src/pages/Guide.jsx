@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import GuideAvatar from "../../public/Raveena.jpg";
+import GuideAvatar from "../assests/Raveena.jpg";
 
 const Guide = () => {
   const [isActive, setIsActive] = useState(true);

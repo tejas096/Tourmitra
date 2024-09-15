@@ -457,3 +457,139 @@ h3 {
   background-color: #f44336;
   color: white;
 }
+.cardcontainer {
+  min-height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card {
+  background: #e5e9f0;
+  width: 35vw;
+  min-height: 40vw;
+  border-radius: 10px;
+  color: #2e2e2e;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.cardprofile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.card img {
+  width: 7.5em;
+  height: 7.5em;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #dee2e6;
+  position: absolute;
+  top: 3.5em;
+  transform: translate(-50%, -50%);
+}
+
+.cardimage {
+  position: relative;
+}
+
+.name {
+  background: #edf0f5;
+  padding: 0.7em 2.5em;
+  border-radius: 20px;
+  position: absolute;
+  top: 8em;
+  left: 1em;
+  color: #2e3a48;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cardprofile:hover .name {
+  opacity: 1;
+}
+
+.name h3 {
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
+
+.name small {
+  font-size: 0.9em;
+  color: #607d8b;
+}
+
+.cardbody {
+  padding: 2em 1.5em;
+  margin-top: 5em;
+}
+
+.cardbody h1 {
+  font-size: 2em;
+  color: #2e3a48;
+  margin-bottom: 1rem;
+}
+
+.cardbody h2 {
+  font-size: 1.2em;
+  margin-bottom: 1rem;
+  color: #4a4a4a;
+}
+
+.cardbody p {
+  font-size: 1em;
+  margin-bottom: 1rem;
+  color: #5f6368;
+}
+
+.det {
+  font-weight: bold;
+  color: #2e3a48;
+}
+
+.icon {
+  font-size: 1.5em;
+  color: #ffc107;
+  margin-top: 1rem;
+}
+
+.initials {
+  color: #e0e4eb;
+  font-size: 5em;
+  position: absolute;
+  bottom: 1em;
+  left: 1.2em;
+  z-index: 0;
+}
+
+.btn {
+  background-color: #2e3a48;
+  padding: 12px 25px;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 1.5em;
+  right: 2.5em;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #3f4753;
+}
+
+.btn i {
+  margin-left: 5px;
+}
+.cardimage {
+  width: 120px;
+}
