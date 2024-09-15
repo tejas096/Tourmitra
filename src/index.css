@@ -1,3 +1,321 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* General container */
+.login-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7fc;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Cool header section */
+.header {
+  font-size: 60px;
+  font-weight: 800;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  background: -webkit-linear-gradient(45deg, #ff7f00, #3498db);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Role selection cards */
+.role-selection {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.role-card {
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.role-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.tourist::before {
+  background: linear-gradient(135deg, #ff7f00, #ffa94d);
+}
+
+.tourguide::before {
+  background: linear-gradient(135deg, #3498db, #5dade2);
+}
+
+.role-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.role-card .content {
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.role-card h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.role-card p {
+  font-size: 16px;
+}
+
+/* Login form styling */
+.login-form {
+  width: 400px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: left;
+}
+
+.login-form h2 {
+  color: #ff7f00;
+  margin-bottom: 30px;
+  font-size: 28px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.input-group input:focus {
+  border-color: #3498db;
+  outline: none;
+  background-color: #fff;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #ff7f00;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e56700;
+}
+
+.back-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  color: #3498db;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+/* Signup page */
+.signup-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7fc;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup-role-selection {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+.signup-role-card {
+  flex: 1;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.signup-role-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.signup-tourist::before {
+  background: linear-gradient(135deg, #ff7f00, #ffa94d);
+}
+.signup-tourguide::before {
+  background: linear-gradient(135deg, #3498db, #5dade2);
+}
+.signup-role-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.signup-role-card .content {
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+.signup-role-card h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.signup-role-card p {
+  font-size: 16px;
+}
+/* Signup form */
+.signup-form-container {
+  width: 400px;
+  padding: 80px;
+  background-color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  text-align: left;
+}
+.signup-form-container h2 {
+  color: #ff7f00;
+  margin-bottom: 30px;
+  font-size: 28px;
+  text-align: center;
+}
+.signup-input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.signup-input-group label {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+.signup-input-group input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.signup-input-group input:focus {
+  border-color: #3498db;
+  outline: none;
+  background-color: #fff;
+}
+.signup-submit-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #ff7f00;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.signup-submit-btn:hover {
+  background-color: #e56700;
+}
+
+.signup-back-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  color: #3498db;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+
+.signup-back-btn:hover {
+  text-decoration: underline;
+}
+/* Additional CSS for Tour Guide form to make it wider */
+.tourguide-form-container {
+  width: 80%; /* Makes the form wider */
+  max-width: 900px; /* Optional: Set a max-width to prevent overflow on large screens */
+  height: 100vh;
+}
+
+.tourguide-form-container .signup-input-group input,
+.tourguide-form-container .signup-input-group label {
+  width: 100%; /* Ensures the form inputs stretch across the container */
+}
+
+.tourguide-form-container .signup-input-group {
+  margin-bottom: 15px; /* Adjust spacing between input fields */
+}
+
+/* Ensure the file input and text fields are responsive */
+.tourguide-form-container .signup-input-group input[type="file"] {
+  padding: 10px;
+}
+
+.tourguide-form-container .signup-submit-btn {
+  padding: 12px 20px;
+  font-size: 18px;
+}
+
+.tourguide-form-container .signup-back-btn {
+  margin-top: 20px;
+  font-size: 16px;
+}
