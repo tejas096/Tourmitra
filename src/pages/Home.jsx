@@ -104,12 +104,14 @@ const Home = () => {
             <div className="part2 flex items-center gap-4">
               <div className="hidden lg:flex items-center gap-5">
                 <button className="flex items-center font-medium gap-2">
-                  <i className="text-xl ri-map-pin-user-fill" />
-                  Log In
+                  <Link to={"/login"}>
+                    <i class="text-xl ri-map-pin-user-fill"></i>Login
+                  </Link>
                 </button>
                 <button className="flex items-center font-medium gap-2">
-                  <i className="text-xl ri-user-heart-fill" />
-                  Sign Up
+                  <Link to={"/signup"}>
+                    <i class="text-xl ri-user-heart-fill"></i>SignUp
+                  </Link>
                 </button>
                 {/* <button class="flex items-center font-medium gap-2"><i
                       class="text-xl ri-heart-pulse-fill"></i>Medical Tourism</button> */}

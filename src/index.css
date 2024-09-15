@@ -130,7 +130,7 @@
   background-color: #fff;
 }
 
-.submit-btn {
+.s-btn {
   width: 100%;
   padding: 14px;
   background-color: #ff7f00;
@@ -142,7 +142,7 @@
   transition: background-color 0.3s ease;
 }
 
-.submit-btn:hover {
+.s-btn:hover {
   background-color: #e56700;
 }
 

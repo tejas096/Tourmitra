@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [selectedRole, setSelectedRole] = useState(null);
@@ -36,19 +37,27 @@ const Login = () => {
           <h2>
             {selectedRole === "tourist" ? "Tourist Login" : "Tour Guide Login"}
           </h2>
-          <form>
-            <div className="input-group">
-              <label>Email:</label>
-              <input type="email" placeholder="Enter your email" />
-            </div>
-            <div className="input-group">
-              <label>Password:</label>
-              <input type="password" placeholder="Enter your password" />
-            </div>
-            <button type="submit" className="submit-btn">
-              Login
-            </button>
-          </form>
+          <div className="input-group">
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" />
+          </div>
+          <div className="input-group">
+            <label>Password:</label>
+            <input type="password" placeholder="Enter your password" />
+          </div>
+          {selectedRole === "tourist" ? (
+            <>
+              <button className="s-btn">
+                <Link to={"/bookguide"}>Login</Link>
+              </button>
+            </>
+          ) : (
+            <>
+              <button className="s-btn">
+                <Link to={"/guideinfo"}>Guide</Link>
+              </button>
+            </>
+          )}
           <button className="back-btn" onClick={() => setSelectedRole(null)}>
             Back
           </button>

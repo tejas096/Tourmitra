@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   const [selectedRole, setSelectedRole] = useState(null);
@@ -87,10 +88,19 @@ const Signup = () => {
                 </div>
               </>
             )}
-
-            <button type="submit" className="signup-submit-btn">
-              Sign Up
-            </button>
+            {selectedRole === "tourist" ? (
+              <>
+                <button className="signup-submit-btn">
+                  <Link to={"/bookguide"}>Sign up</Link>
+                </button>
+              </>
+            ) : (
+              <>
+                <button className="signup-submit-btn">
+                  <Link to={"/guideinfo"}>Sign up</Link>
+                </button>
+              </>
+            )}
           </form>
           <button
             className="signup-back-btn"
