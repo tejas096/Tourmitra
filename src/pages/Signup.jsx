@@ -44,64 +44,62 @@ const Signup = () => {
               ? "Tourist Sign-Up"
               : "Tour Guide Sign-Up"}
           </h2>
-          <form>
-            <div className="signup-input-group">
-              <label>Name:</label>
-              <input type="text" placeholder="Enter your name" />
-            </div>
-            <div className="signup-input-group">
-              <label>Email:</label>
-              <input type="email" placeholder="Enter your email" />
-            </div>
-            <div className="signup-input-group">
-              <label>Password:</label>
-              <input type="password" placeholder="Enter your password" />
-            </div>
-            <div className="signup-input-group">
-              <label>Confirm Password:</label>
-              <input
-                type="Confirm password"
-                placeholder="confirm your password"
-              />
-            </div>
+          <div className="signup-input-group">
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name" />
+          </div>
+          <div className="signup-input-group">
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email" />
+          </div>
+          <div className="signup-input-group">
+            <label>Password:</label>
+            <input type="password" placeholder="Enter your password" />
+          </div>
+          <div className="signup-input-group">
+            <label>Confirm Password:</label>
+            <input
+              type="Confirm password"
+              placeholder="confirm your password"
+            />
+          </div>
 
-            {/* Conditional fields for Tour Guide Sign-Up */}
-            {selectedRole === "tourguide" && (
-              <>
-                <div className="signup-input-group">
-                  <label>Address:</label>
-                  <input type="text" placeholder="Enter your address" />
+          {/* Conditional fields for Tour Guide Sign-Up */}
+          {selectedRole === "tourguide" && (
+            <>
+              <div className="signup-input-group">
+                <label>Address:</label>
+                <input type="text" placeholder="Enter your address" />
+              </div>
+              <div className="signup-input-group">
+                <label>Mobile Number:</label>
+                <input type="tel" placeholder="Enter your mobile number" />
+              </div>
+              <div className="aadhar-policegroup">
+                <div className="signup-input-group adhar-card">
+                  <label>Aadhar Card (PDF):</label>
+                  <input type="file" accept="application/pdf" />
                 </div>
-                <div className="signup-input-group">
-                  <label>Mobile Number:</label>
-                  <input type="tel" placeholder="Enter your mobile number" />
+                <div className="signup-input-group police-verification">
+                  <label>Police Verification Document (PDF):</label>
+                  <input type="file" accept="application/pdf" />
                 </div>
-                <div className="aadhar-policegroup">
-                  <div className="signup-input-group adhar-card">
-                    <label>Aadhar Card (PDF):</label>
-                    <input type="file" accept="application/pdf" />
-                  </div>
-                  <div className="signup-input-group police-verification">
-                    <label>Police Verification Document (PDF):</label>
-                    <input type="file" accept="application/pdf" />
-                  </div>
-                </div>
-              </>
-            )}
-            {selectedRole === "tourist" ? (
-              <>
-                <button className="signup-submit-btn">
-                  <Link to={"/bookguide"}>Sign up</Link>
-                </button>
-              </>
-            ) : (
-              <>
-                <button className="signup-submit-btn">
-                  <Link to={"/guideinfo"}>Sign up</Link>
-                </button>
-              </>
-            )}
-          </form>
+              </div>
+            </>
+          )}
+          {selectedRole == "tourist" ? (
+            <>
+              <Link className="signup-submit-btn" to={"/bookguide"}>
+                Sign up
+              </Link>
+            </>
+          ) : (
+            <>
+              <Link className="signup-submit-btn" to={"/guideinfo"}>
+                Sign up
+              </Link>
+            </>
+          )}
           <button
             className="signup-back-btn"
             onClick={() => setSelectedRole(null)}

@@ -45,17 +45,17 @@ const Login = () => {
             <label>Password:</label>
             <input type="password" placeholder="Enter your password" />
           </div>
-          {selectedRole === "tourist" ? (
+          {selectedRole == "tourist" ? (
             <>
-              <button className="s-btn">
-                <Link to={"/bookguide"}>Login</Link>
-              </button>
+              <Link className="s-btn" to={"/bookguide"}>
+                Login
+              </Link>
             </>
           ) : (
             <>
-              <button className="s-btn">
-                <Link to={"/guideinfo"}>Guide</Link>
-              </button>
+              <Link className="s-btn" to={"/guideinfo"}>
+                Login
+              </Link>
             </>
           )}
           <button className="back-btn" onClick={() => setSelectedRole(null)}>

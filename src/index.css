@@ -131,8 +131,10 @@
 }
 
 .s-btn {
-  width: 100%;
+  width: 323px;
+  display: block;
   padding: 14px;
+  padding-left: 137px;
   background-color: #ff7f00;
   color: white;
   font-size: 18px;
@@ -267,6 +269,8 @@
 }
 .signup-submit-btn {
   width: 100%;
+  display: block;
+  text-align: center;
   padding: 14px;
   background-color: #ff7f00;
   color: white;
