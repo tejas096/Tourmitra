@@ -160,10 +160,15 @@
 .back-btn:hover {
   text-decoration: underline;
 }
-
+.just-margin {
+  margin-top: 175px;
+}
+.signup-role-selection {
+  padding-bottom: 232px;
+}
 /* Signup page */
 .signup-container {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -293,7 +298,7 @@
 .tourguide-form-container {
   width: 80%; /* Makes the form wider */
   max-width: 900px; /* Optional: Set a max-width to prevent overflow on large screens */
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .tourguide-form-container .signup-input-group input,

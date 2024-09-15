@@ -9,7 +9,7 @@ const Signup = () => {
     <div className="signup-container">
       {!selectedRole ? (
         <>
-          <h1 className="header">Choose Your Role</h1>
+          <h1 className="header just-margin">Choose Your Role</h1>
 
           <div className="signup-role-selection">
             <div
