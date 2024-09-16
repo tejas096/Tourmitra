@@ -1961,6 +1961,56 @@ const BookGuide = () => {
                 locations={"Guwahati, Silchar, Digboi"}
               />
             </Link>
+            <Link to={"/himanshumeena"}>
+              <Card
+                name={"Himanshu Meena"}
+                image={
+                  "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={2.5}
+                locations={"Fort Aguada, Baga Beech, Arambol Beech"}
+              />
+            </Link>
+            <Link to={"/jethalalgada"}>
+              <Card
+                name={"Jethalal Gada"}
+                image={
+                  "https://static.india.com/wp-content/uploads/2021/12/pjimage-39-5.jpg?impolicy=Medium_Widthonly&w=700"
+                }
+                rating={4.5}
+                locations={"Surat, Ahmedabad, Navrati"}
+              />
+            </Link>
+            <Link to={"/elvishyadav"}>
+              <Card
+                name={"Elvish Yadav"}
+                image={
+                  "https://imgs.search.brave.com/bctbf3SmMC6B549lir8saUEaiPyYfT9O8GB1BX3JRn8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhldHZqdW5raWVz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMi8wMS9FbHZp/c2hZYWRhdi0uanBn"
+                }
+                rating={1}
+                locations={"Gurgaon, Rohtak, Panipat"}
+              />
+            </Link>
+            <Link to={"/shubhamkirar"}>
+              <Card
+                name={"Shubham Kirar"}
+                image={
+                  "https://images.unsplash.com/photo-1601977218317-72e0996ecdfe?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={4.5}
+                locations={"Ranchi, Bokaro, Dhanbad"}
+              />
+            </Link>
+            <Link to={"/ayushioberoi"}>
+              <Card
+                name={"Ayushi Oberoi"}
+                image={
+                  "https://images.unsplash.com/photo-1676385901184-b1884f3f2979?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={4.5}
+                locations={"Shimla, Kullu, Manali"}
+              />
+            </Link>
           </>
         ) : (
           <></>
