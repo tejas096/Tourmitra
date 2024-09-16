@@ -509,6 +509,24 @@ h3 {
   justify-content: space-around;
   align-items: center;
 }
+.book-guide-ka-head {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(255 102 18);
+}
+.css-rm9hue-MuiSvgIcon-root-MuiSelect-icon {
+  color: rgb(255 102 18) !important;
+}
+.input-ki-feilds {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.first-field {
+  margin-right: 55px !important;
+}
 .air-card {
   max-height: 200px;
   min-height: 200px;

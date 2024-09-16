@@ -225,11 +225,9 @@ const BookGuide = () => {
           </div>
         </div>
       </nav>
-      <h1 className="align-text-center">
-        Choose the location you want to travel !!
-      </h1>
-      <div className="flex flex-row gap-y-[30px]">
-        <div>
+      <h1 className="book-guide-ka-head">CHOOSE THE LOCATION TO TRAVEL !!</h1>
+      <div className="input-ki-feilds">
+        <div className="first-field">
           <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
             <InputLabel id="demo-simple-select-standard-label">
               State
