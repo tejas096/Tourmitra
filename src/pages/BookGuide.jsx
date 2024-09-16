@@ -1898,7 +1898,7 @@ const BookGuide = () => {
           )}
         </div>
       </div>
-      <div>
+      <div className="logo-ka-div">
         {state == "" ? (
           <>
             <Link to={"/rajyadav"}>
@@ -1957,7 +1957,7 @@ const BookGuide = () => {
               <Card
                 name={"Shivam Sahu"}
                 image={
-                  "https://plus.unsplash.com/premium_photo-1682098109069-0e49e3b42884?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  "https://images.unsplash.com/flagged/photo-1571367034861-e6729ad9c2d5?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 }
                 rating={3}
                 locations={"Guwahati, Silchar, Digboi"}
@@ -2023,7 +2023,7 @@ const BookGuide = () => {
               <Card
                 name={"Shivam Sahu"}
                 image={
-                  "https://plus.unsplash.com/premium_photo-1682098109069-0e49e3b42884?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  "https://images.unsplash.com/flagged/photo-1571367034861-e6729ad9c2d5?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 }
                 rating={3}
                 locations={"Guwahati, Silchar, Digboi"}
