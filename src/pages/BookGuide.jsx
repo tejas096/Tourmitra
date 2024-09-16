@@ -2049,8 +2049,15 @@ const BookGuide = () => {
         )}
         {state == "goa" ? (
           <>
-            <Link to={"/"}>
-              <Card name={""} image={""} rating={4.5} locations={""} />
+            <Link to={"/himanshumeena"}>
+              <Card
+                name={"Himanshu Meena"}
+                image={
+                  "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={2.5}
+                locations={"Fort Aguada, Baga Beech, Arambol Beech"}
+              />
             </Link>
           </>
         ) : (
@@ -2058,336 +2065,280 @@ const BookGuide = () => {
         )}
         {state == "gujarat" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/jethalalgada"}>
+              <Card
+                name={"Jethalal Gada"}
+                image={
+                  "https://static.india.com/wp-content/uploads/2021/12/pjimage-39-5.jpg?impolicy=Medium_Widthonly&w=700"
+                }
+                rating={4.5}
+                locations={"Surat, Ahmedabad, Navrati"}
+              />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "haryana" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/elvishyadav"}>
+              <Card
+                name={"Elvish Yadav"}
+                image={
+                  "https://imgs.search.brave.com/bctbf3SmMC6B549lir8saUEaiPyYfT9O8GB1BX3JRn8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGhldHZqdW5raWVz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMi8wMS9FbHZp/c2hZYWRhdi0uanBn"
+                }
+                rating={1}
+                locations={"Gurgaon, Rohtak, Panipat"}
+              />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "jharkhand" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/shubhamkirar"}>
+              <Card
+                name={"Shubham Kirar"}
+                image={
+                  "https://images.unsplash.com/photo-1601977218317-72e0996ecdfe?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={4.5}
+                locations={"Ranchi, Bokaro, Dhanbad"}
+              />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "himachal pradesh" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/ayushioberoi"}>
+              <Card
+                name={"Ayushi Oberoi"}
+                image={
+                  "https://images.unsplash.com/photo-1676385901184-b1884f3f2979?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={4.5}
+                locations={"Shimla, Kullu, Manali"}
+              />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "karnataka" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "kerala" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "madhya pradesh" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "maharashtra" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "manipur" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "meghalaya" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "mizoram" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "nagaland" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "odisha" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "punjab" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "rajasthan" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "sikkim" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "tamil nadu" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "telangana" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "tripura" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "uttar pradesh" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "uttarakhand" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "west bengal" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "andaman and nicobar islands" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "delhi" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "puducherry" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "ladakh" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "jammu and kashmir" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "dadra and nagar haveli and daman and diu" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={"/"} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
