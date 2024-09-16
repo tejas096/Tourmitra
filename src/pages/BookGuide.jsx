@@ -230,7 +230,7 @@ const BookGuide = () => {
       </h1>
       <div className="flex flex-row gap-y-[30px]">
         <div>
-          <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+          <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
             <InputLabel id="demo-simple-select-standard-label">
               State
             </InputLabel>
@@ -292,7 +292,7 @@ const BookGuide = () => {
         <div>
           {state == "" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -314,7 +314,7 @@ const BookGuide = () => {
         <div>
           {state == "andhra pradesh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -367,7 +367,7 @@ const BookGuide = () => {
         <div>
           {state == "arunachal pradesh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -418,7 +418,7 @@ const BookGuide = () => {
         <div>
           {state == "bihar" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -480,7 +480,7 @@ const BookGuide = () => {
         <div>
           {state == "assam" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -543,7 +543,7 @@ const BookGuide = () => {
         <div>
           {state == "chhattisgarh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -601,7 +601,7 @@ const BookGuide = () => {
         <div>
           {state == "goa" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -627,7 +627,7 @@ const BookGuide = () => {
         <div>
           {state == "gujarat" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -684,7 +684,7 @@ const BookGuide = () => {
         <div>
           {state == "haryana" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -730,7 +730,7 @@ const BookGuide = () => {
         <div>
           {state == "jharkhand" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -780,7 +780,7 @@ const BookGuide = () => {
         <div>
           {state == "himachal pradesh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -816,7 +816,7 @@ const BookGuide = () => {
         <div>
           {state == "karnataka" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -870,7 +870,7 @@ const BookGuide = () => {
         <div>
           {state == "kerala" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -910,7 +910,7 @@ const BookGuide = () => {
         <div>
           {state == "madhya pradesh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -976,7 +976,7 @@ const BookGuide = () => {
         <div>
           {state == "maharashtra" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1039,7 +1039,7 @@ const BookGuide = () => {
         <div>
           {state == "manipur" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1075,7 +1075,7 @@ const BookGuide = () => {
         <div>
           {state == "meghalaya" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1118,7 +1118,7 @@ const BookGuide = () => {
         <div>
           {state == "mizoram" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1153,7 +1153,7 @@ const BookGuide = () => {
         <div>
           {state == "nagaland" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1187,7 +1187,7 @@ const BookGuide = () => {
         <div>
           {state == "odisha" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1241,7 +1241,7 @@ const BookGuide = () => {
         <div>
           {state == "punjab" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1288,7 +1288,7 @@ const BookGuide = () => {
         <div>
           {state == "rajasthan" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1345,7 +1345,7 @@ const BookGuide = () => {
         <div>
           {state == "sikkim" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1373,7 +1373,7 @@ const BookGuide = () => {
         <div>
           {state == "tamil nadu" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1429,7 +1429,7 @@ const BookGuide = () => {
         <div>
           {state == "telangana" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1492,7 +1492,7 @@ const BookGuide = () => {
         <div>
           {state == "tripura" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1525,7 +1525,7 @@ const BookGuide = () => {
         <div>
           {state == "uttar pradesh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1616,7 +1616,7 @@ const BookGuide = () => {
         <div>
           {state == "uttarakhand" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1655,7 +1655,7 @@ const BookGuide = () => {
         <div>
           {state == "west bengal" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1709,7 +1709,7 @@ const BookGuide = () => {
         <div>
           {state == "andaman and nicobar islands" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1741,7 +1741,7 @@ const BookGuide = () => {
         <div>
           {state == "delhi" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1774,7 +1774,7 @@ const BookGuide = () => {
         <div>
           {state == "puducherry" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1802,7 +1802,7 @@ const BookGuide = () => {
         <div>
           {state == "ladakh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1828,7 +1828,7 @@ const BookGuide = () => {
         <div>
           {state == "jammu and kashmir" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1871,7 +1871,7 @@ const BookGuide = () => {
         <div>
           {state == "dadra and nagar haveli and daman and diu" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 600 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -1933,6 +1933,36 @@ const BookGuide = () => {
                 locations={"Itanagar, Pasighat, Tawang"}
               />
             </Link>
+            <Link to={"/radhamishra"}>
+              <Card
+                name={"Radha Mishra"}
+                image={
+                  "https://images.unsplash.com/photo-1591980896142-4e36328411ec?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={3.5}
+                locations={"Raipur, Bhilai, korba"}
+              />
+            </Link>
+            <Link to={"/goldykumari"}>
+              <Card
+                name={"Goldy Kumari"}
+                image={
+                  "https://plus.unsplash.com/premium_photo-1682089810582-f7b200217b67?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={5}
+                locations={"Patna, Darbhanga, Gaya"}
+              />
+            </Link>
+            <Link to={"/shivamsahu"}>
+              <Card
+                name={"Shivam Sahu"}
+                image={
+                  "https://plus.unsplash.com/premium_photo-1682098109069-0e49e3b42884?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={3}
+                locations={"Guwahati, Silchar, Digboi"}
+              />
+            </Link>
           </>
         ) : (
           <></>
@@ -1989,36 +2019,41 @@ const BookGuide = () => {
         )}
         {state == "assam" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/shivamsahu"}>
+              <Card
+                name={"Shivam Sahu"}
+                image={
+                  "https://plus.unsplash.com/premium_photo-1682098109069-0e49e3b42884?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={3}
+                locations={"Guwahati, Silchar, Digboi"}
+              />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "chhattisgarh" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/radhamishra"}>
+              <Card
+                name={"Radha Mishra"}
+                image={
+                  "https://images.unsplash.com/photo-1591980896142-4e36328411ec?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={3.5}
+                locations={"Raipur, Bhilai, korba"}
+              />
+            </Link>
           </>
         ) : (
           <></>
         )}
         {state == "goa" ? (
           <>
-            <Card
-              name={"tejas Jain"}
-              image={"bdhfhgghg"}
-              rating={2.6}
-              locations={["Agra", "Delhi"]}
-            />
+            <Link to={"/"}>
+              <Card name={""} image={""} rating={4.5} locations={""} />
+            </Link>
           </>
         ) : (
           <></>
