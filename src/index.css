@@ -3,7 +3,7 @@
 @tailwind utilities;
 /* General container */
 .login-container {
-  height: 100vh;
+  height: 81vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,7 +163,7 @@
   text-decoration: underline;
 }
 .just-margin {
-  margin-top: 175px;
+  margin-top: 103px;
 }
 .signup-role-selection {
   padding-bottom: 232px;
@@ -232,8 +232,10 @@
 }
 /* Signup form */
 .signup-form-container {
+  margin-top: 20px;
+  margin-bottom: 96px;
   width: 400px;
-  padding: 80px;
+  padding: 20px 80px;
   background-color: white;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
@@ -330,6 +332,8 @@
 }
 /* Dashboard Container */
 .dashboard-container {
+  margin-top: 20px !important;
+  margin-bottom: 98px !important;
   font-family: "Arial", sans-serif;
   max-width: 900px;
   margin: 0 auto;
@@ -461,8 +465,13 @@ h3 {
   background-color: #f44336;
   color: white;
 }
+.logo-jpg-file {
+  height: 71px;
+  width: 71px;
+  border-radius: 50%;
+}
 .cardcontainer {
-  min-height: 100vh;
+  min-height: 75vh;
   background: #ffffff;
   display: flex;
   justify-content: center;
@@ -472,8 +481,8 @@ h3 {
 
 .card {
   background: #e5e9f0;
-  width: 35vw;
-  min-height: 40vw;
+  width: 37vw;
+  min-height: 34vw;
   border-radius: 10px;
   color: #2e2e2e;
   position: relative;

@@ -3,89 +3,70 @@ import { Link } from "react-router-dom";
 import firstImage from "../assests/cartrip-removebg-preview.png";
 import secondImage from "../assests/Screenshot_2024-09-01_130615-removebg-preview.png";
 import thirdImage from "../assests/tourguide-removebg-preview.png";
+import Logo from "../assests/logo.jpg";
 const Home = () => {
   return (
     <>
-      {/* <div>
-        <Link className="text-blue-600" to={"/login"}>
-          Login
-        </Link>
-      </div>
-      <div>
-        <Link className="text-blue-600" to={"/signup"}>
-          SignUp
-        </Link>
-      </div>
-      <div>
-        <Link className="text-blue-600" to={"/bookguide"}>
-          Book A Guide
-        </Link>
-      </div>
-      <div>
-        <Link className="text-blue-600" to={"/aboutguide"}>
-          Guide Details
-        </Link>
-      </div>
-      <div>
-        <Link className="text-blue-600" to={"/guideinfo"}>
-          Guide
-        </Link>
-      </div> */}
       <div>
         <button className="fixed hidden lg:flex z-20 flex gap-1 bg-gray-100 border border-[#FD6512] px-3 rounded-[20px] py-1 top-[88%] right-[11%]">
           <i className="ri-phone-line" />
           <h1>51848484</h1>
         </button>
-        <button className="fixed hidden lg:flex z-20 flex gap-1 border bg-[#FD6512] text-white px-3 rounded-[20px] py-1 top-[88%] right-[1%]">
-          <i className="ri-map-pin-2-line" />
-          <h1>Plan Your Trip</h1>
-        </button>
+        <Link to={"/bookguide"}>
+          <button className="fixed hidden lg:flex z-20 flex gap-1 border bg-[#FD6512] text-white px-3 rounded-[20px] py-1 top-[88%] right-[1%]">
+            <i className="ri-map-pin-2-line" />
+            <h1>Plan Your Trip</h1>
+          </button>
+        </Link>
         <div className="fixed hidden lg:flex h-[12vh] border-gray-100 bg-zinc-100 border items-center justify-center gap-10 flex w-full z-10 bg-white top-[90%] p-2">
-          <div className="flex flex-col items-center justify-center">
-            <div className="bg-[url(https://www.tourmyindia.com/imgnew/india-tour.svg)] bg-cover bg-center h-[5vh] w-[2vw]"></div>
-            <h1 className="text-gray-500 font-normal">India Tour-Guides</h1>
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            <div className="bg-[url(https://www.tourmyindia.com/imgnew/international-tour.svg)] bg-cover bg-center h-[5vh] w-[2vw]"></div>
-            <h1 className="text-gray-500 font-nornal">
-              International Tour-Guides
-            </h1>
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            {/* <div
-          class="bg-[url(https://www.tourmyindia.com/imgnew/destinaton-wedding.svg)] bg-cover bg-center h-[5vh] w-[1.8vw]">
-      </div>
-      <h1 class="text-gray-500 font-nornal">Destination Wedding</h1> */}
-          </div>
-          <div className="flex flex-col items-center justify-center">
-            {/* <div
-          class="bg-[url(https://www.tourmyindia.com/imgnew/medical-tourism.svg)] bg-cover bg-center h-[5vh] w-[3vw]">
-      </div> */}
-            {/* <h1 class="text-gray-500 font-nornal">Medical Tourism</h1> */}
-          </div>
+          <Link to={"/bookguide"}>
+            <div className="flex flex-col items-center justify-center">
+              <div className="bg-[url(https://www.tourmyindia.com/imgnew/india-tour.svg)] bg-cover bg-center h-[5vh] w-[2vw]"></div>
+              <h1 className="text-gray-500 font-normal">India Tour-Guides</h1>
+            </div>
+          </Link>
+          <Link to={"/bookguide"}>
+            <div className="flex flex-col items-center justify-center">
+              <div className="bg-[url(https://www.tourmyindia.com/imgnew/international-tour.svg)] bg-cover bg-center h-[5vh] w-[2vw]"></div>
+              <h1 className="text-gray-500 font-nornal">
+                International Tour-Guides
+              </h1>
+            </div>
+          </Link>
+          <div className="flex flex-col items-center justify-center"></div>
+          <div className="flex flex-col items-center justify-center"></div>
         </div>
-        {/* main-code-start */}
         <main className="main z-9 w-full font-[gilroy] bg-[#FFFFFF]">
           {/* nav */}
           <nav className="nav flex w-full h-[10vh] justify-between items-center p-5 bg-white shadow-md">
             {/* img and buttons section */}
             <div className="part1 flex items-center gap-4">
               {/* Logo */}
-              <div className="h-[8vh] w-[15vw] lg:h-[10vh] lg:w-[4vw] bg-center bg-cover bg-[url('https://www.tourmyindia.com/imgnew/inner_logo.png')]"></div>
+              <div
+                className={`h-[8vh] w-[15vw] lg:h-[10vh] lg:w-[4vw] bg-center bg-cover`}
+              >
+                <img className="logo-jpg-file" src={Logo} alt="" />
+              </div>
               {/* Dropdown Buttons */}
               <div className="hidden md:flex items-center gap-4">
-                <button className="flex items-center font-medium">
-                  Home{" "}
-                  <i className="text-gray-500 text-2xl ri-arrow-drop-down-line" />
-                </button>
-                <button className="flex items-center font-medium">
-                  Destination
-                  <i className="text-gray-500 text-2xl ri-arrow-drop-down-line" />
-                </button>
-                <button className="lg:flex hidden items-center font-medium">
-                  Booking{" "}
-                  <i className="text-gray-500 text-2xl ri-arrow-drop-down-line" />
-                </button>
+                <Link to={"/"}>
+                  <button className="flex items-center font-medium">
+                    Home{" "}
+                    <i className="text-gray-500 text-2xl ri-arrow-drop-down-line" />
+                  </button>
+                </Link>
+                <Link to={"/bookguide"}>
+                  <button className="flex items-center font-medium">
+                    Destination
+                    <i className="text-gray-500 text-2xl ri-arrow-drop-down-line" />
+                  </button>
+                </Link>
+                <Link to={"/bookguide"}>
+                  <button className="lg:flex hidden items-center font-medium">
+                    Booking{" "}
+                    <i className="text-gray-500 text-2xl ri-arrow-drop-down-line" />
+                  </button>
+                </Link>
                 <button className="lg:flex hidden items-center font-medium">
                   Contact Us{" "}
                   <i className="text-gray-500 text-2xl ri-arrow-drop-down-line" />
