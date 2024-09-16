@@ -4,7 +4,7 @@ import Stack from "@mui/material/Stack";
 import { Link } from "react-router-dom";
 import Logo from "../assests/logo.jpg";
 
-const GuideDetail = () => {
+const RajYadav = () => {
   return (
     <>
       <button className="fixed hidden lg:flex z-20 flex gap-1 bg-gray-100 border border-[#FD6512] px-3 rounded-[20px] py-1 top-[88%] right-[11%]">
@@ -91,7 +91,7 @@ const GuideDetail = () => {
         <div className="card">
           <div className="cardprofile">
             <div className="name">
-              <h3>Sanjay Kumar</h3>
+              <h3>Raj Yadav</h3>
               <small>Professional Tour Guide</small>
             </div>
             <div className="cardimage">
@@ -105,10 +105,10 @@ const GuideDetail = () => {
             <h1>Welcome Tourists!</h1>
             <h2>Tour Guide Details:</h2>
             <p>
-              <span className="det">City:</span> Bhopal, M.P.
+              <span className="det">City:</span> Bhopal, Gwalior, Indore
             </p>
             <p>
-              <span className="det">Contact:</span> sanjaykumar@tourmitra.com
+              <span className="det">Contact:</span> rajyadav@tourmitra.com
             </p>
             <p>
               <span className="det">Specialities:</span> Walking, Cultural, and
@@ -142,4 +142,4 @@ const GuideDetail = () => {
   );
 };
 
-export default GuideDetail;
+export default RajYadav;

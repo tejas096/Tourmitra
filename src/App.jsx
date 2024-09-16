@@ -3,9 +3,12 @@ import React from "react";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Guide from "./pages/Guide";
-import GuideDetail from "./pages/GuideDetail";
 import BookGuide from "./pages/BookGuide";
 import Home from "./pages/Home";
+import RajYadav from "./pages/RajYadav";
+import AyushSingh from "./pages/AyushSingh";
+import HemantTiwari from "./pages/HemantTiwari";
+import GoldyKumari from "./pages/GoldyKumari";
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/bookguide" element={<BookGuide />} />
-      <Route path="/aboutguide" element={<GuideDetail />} />
+      <Route path="/rajyadav" element={<RajYadav />} />
+      <Route path="/ayushsingh" element={<AyushSingh />} />
+      <Route path="/hemanttiwari" element={<HemantTiwari />} />
+      <Route path="/goldykumari" element={<GoldyKumari />} />
       <Route path="/guideinfo" element={<Guide />} />
     </Routes>
   );

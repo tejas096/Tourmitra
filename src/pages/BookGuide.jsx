@@ -225,9 +225,12 @@ const BookGuide = () => {
           </div>
         </div>
       </nav>
-      <>
+      <h1 className="align-text-center">
+        Choose the location you want to travel !!
+      </h1>
+      <div className="flex flex-row gap-y-[30px]">
         <div>
-          <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+          <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
             <InputLabel id="demo-simple-select-standard-label">
               State
             </InputLabel>
@@ -289,7 +292,7 @@ const BookGuide = () => {
         <div>
           {state == "" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
                   District
                 </InputLabel>
@@ -311,9 +314,9 @@ const BookGuide = () => {
         <div>
           {state == "andhra pradesh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Andhra Pradesh
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -364,9 +367,9 @@ const BookGuide = () => {
         <div>
           {state == "arunachal pradesh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Arunachal Pradesh
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -415,9 +418,9 @@ const BookGuide = () => {
         <div>
           {state == "bihar" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Bihar
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -477,9 +480,9 @@ const BookGuide = () => {
         <div>
           {state == "assam" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Assam
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -540,9 +543,9 @@ const BookGuide = () => {
         <div>
           {state == "chhattisgarh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Chhattisgarh
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -598,9 +601,9 @@ const BookGuide = () => {
         <div>
           {state == "goa" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Goa
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -624,9 +627,9 @@ const BookGuide = () => {
         <div>
           {state == "gujarat" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Gujarat
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -681,9 +684,9 @@ const BookGuide = () => {
         <div>
           {state == "haryana" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Haryana
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -727,9 +730,9 @@ const BookGuide = () => {
         <div>
           {state == "jharkhand" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Jharkhand
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -777,9 +780,9 @@ const BookGuide = () => {
         <div>
           {state == "himachal pradesh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Himachal Pradesh
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -813,9 +816,9 @@ const BookGuide = () => {
         <div>
           {state == "karnataka" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Karnataka
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -867,9 +870,9 @@ const BookGuide = () => {
         <div>
           {state == "kerala" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Kerala
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -907,9 +910,9 @@ const BookGuide = () => {
         <div>
           {state == "madhya pradesh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Madhya Pradesh
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -973,9 +976,9 @@ const BookGuide = () => {
         <div>
           {state == "maharashtra" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Maharashtra
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1036,9 +1039,9 @@ const BookGuide = () => {
         <div>
           {state == "manipur" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Manipur
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1072,9 +1075,9 @@ const BookGuide = () => {
         <div>
           {state == "meghalaya" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Meghalaya
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1115,9 +1118,9 @@ const BookGuide = () => {
         <div>
           {state == "mizoram" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Mizoram
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1150,9 +1153,9 @@ const BookGuide = () => {
         <div>
           {state == "nagaland" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Nagaland
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1184,9 +1187,9 @@ const BookGuide = () => {
         <div>
           {state == "odisha" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Odisha
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1238,9 +1241,9 @@ const BookGuide = () => {
         <div>
           {state == "punjab" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Punjab
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1285,9 +1288,9 @@ const BookGuide = () => {
         <div>
           {state == "rajasthan" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Rajasthan
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1342,9 +1345,9 @@ const BookGuide = () => {
         <div>
           {state == "sikkim" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Sikkim
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1370,9 +1373,9 @@ const BookGuide = () => {
         <div>
           {state == "tamil nadu" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Tamil Nadu
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1426,9 +1429,9 @@ const BookGuide = () => {
         <div>
           {state == "telangana" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Telangana
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1489,9 +1492,9 @@ const BookGuide = () => {
         <div>
           {state == "tripura" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Tripura
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1522,9 +1525,9 @@ const BookGuide = () => {
         <div>
           {state == "uttar pradesh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Uttar Pradesh
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1613,9 +1616,9 @@ const BookGuide = () => {
         <div>
           {state == "uttarakhand" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Uttarakhand
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1652,9 +1655,9 @@ const BookGuide = () => {
         <div>
           {state == "west bengal" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  West Bengal
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1706,9 +1709,9 @@ const BookGuide = () => {
         <div>
           {state == "andaman and nicobar islands" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Andaman and Nicobar Islands
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1738,9 +1741,9 @@ const BookGuide = () => {
         <div>
           {state == "delhi" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Delhi
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1771,9 +1774,9 @@ const BookGuide = () => {
         <div>
           {state == "puducherry" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Puducherry
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1799,9 +1802,9 @@ const BookGuide = () => {
         <div>
           {state == "ladakh" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Ladakh
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1825,9 +1828,9 @@ const BookGuide = () => {
         <div>
           {state == "jammu and kashmir" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Jammu and Kashmir
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1868,9 +1871,9 @@ const BookGuide = () => {
         <div>
           {state == "dadra and nagar haveli and daman and diu" ? (
             <>
-              <FormControl variant="standard" sx={{ m: 1, minWidth: 120 }}>
+              <FormControl variant="standard" sx={{ m: 1, minWidth: 400 }}>
                 <InputLabel id="demo-simple-select-standard-label">
-                  Dadra and Nagar Haveli and Daman and Diu
+                  District
                 </InputLabel>
                 <Select
                   labelId="demo-simple-select-standard-label"
@@ -1894,88 +1897,469 @@ const BookGuide = () => {
             <></>
           )}
         </div>
-      </>
-      {state == "andhra pradesh" ? (
-        <>
+      </div>
+      <div>
+        {state == "" ? (
           <>
-            {andhrapradesh == "chittoor" ? (
-              <>
-                <Card
-                  image={"https://example.com/guide.jpg"}
-                  name={"John Doe"}
-                  rating={4.8}
-                  amount={150}
-                  locations={["Chittoor"]}
-                ></Card>
-              </>
-            ) : (
-              <></>
-            )}
+            <Link to={"/rajyadav"}>
+              <Card
+                name={"Raj Yadav"}
+                image={
+                  "https://plus.unsplash.com/premium_photo-1718146018854-ad4aa928d9c4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={4.5}
+                locations={["Bhopal, Gwalior, Indore"]}
+              />
+            </Link>
+            <Link to={"/ayushsingh"}>
+              <Card
+                name={"Ayush Singh"}
+                image={
+                  "https://images.unsplash.com/photo-1468218457742-ee484fe2fe4c?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={4}
+                locations={
+                  "Visakhapatnam, Vijayawada, Amaravati, Guntur, Kurnool"
+                }
+              />
+            </Link>
+            <Link to={"/hemanttiwari"}>
+              <Card
+                name={"Hemant Tiwari"}
+                image={
+                  "https://plus.unsplash.com/premium_photo-1678703870782-918c21aac2b2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={3.5}
+                locations={"Itanagar, Pasighat, Tawang"}
+              />
+            </Link>
           </>
+        ) : (
+          <></>
+        )}
+        {state == "andhra pradesh" ? (
           <>
-            {andhrapradesh == "east godavari" ? (
-              <>
-                <Card
-                  image={"https://example.com/guide.jpg"}
-                  name={"John Doe"}
-                  rating={4.8}
-                  amount={150}
-                  locations={["East Godavari"]}
-                ></Card>
-              </>
-            ) : (
-              <></>
-            )}
+            <Link to={"/ayushsingh"}>
+              <Card
+                name={"Ayush Singh"}
+                image={
+                  "https://images.unsplash.com/photo-1468218457742-ee484fe2fe4c?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={4}
+                locations={
+                  "Visakhapatnam, Vijayawada, Amaravati, Guntur, Kurnool"
+                }
+              />
+            </Link>
           </>
+        ) : (
+          <></>
+        )}
+        {state == "arunachal pradesh" ? (
           <>
-            {andhrapradesh == "" ? (
-              <>
-                <Card
-                  image={"https://example.com/guide.jpg"}
-                  name={"John Doe"}
-                  rating={4.8}
-                  amount={150}
-                  locations={["Ananthapuramu"]}
-                ></Card>
-              </>
-            ) : (
-              <></>
-            )}
+            <Link to={"/hemanttiwari"}>
+              <Card
+                name={"Hemant Tiwari"}
+                image={
+                  "https://plus.unsplash.com/premium_photo-1678703870782-918c21aac2b2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={3.5}
+                locations={"Itanagar, Pasighat, Tawang"}
+              />
+            </Link>
           </>
+        ) : (
+          <></>
+        )}
+        {state == "bihar" ? (
           <>
-            {andhrapradesh == "guntur" ? (
-              <>
-                <Card
-                  image={"https://example.com/guide.jpg"}
-                  name={"John Doe"}
-                  rating={4.8}
-                  amount={150}
-                  locations={["Guntur"]}
-                ></Card>
-              </>
-            ) : (
-              <></>
-            )}
+            <Link to={"/goldykumari"}>
+              <Card
+                name={"Goldy Kumari"}
+                image={
+                  "https://plus.unsplash.com/premium_photo-1682089810582-f7b200217b67?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+                rating={5}
+                locations={"Patna, Darbhanga, Gaya"}
+              />
+            </Link>
           </>
+        ) : (
+          <></>
+        )}
+        {state == "assam" ? (
           <>
-            {andhrapradesh == "ananthapuramu" ? (
-              <>
-                <Card
-                  image={"https://example.com/guide.jpg"}
-                  name={"John Doe"}
-                  rating={4.8}
-                  amount={150}
-                  locations={["Ananthapuramu"]}
-                ></Card>
-              </>
-            ) : (
-              <></>
-            )}
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
           </>
-        </>
-      ) : (
-        <></>
-      )}
+        ) : (
+          <></>
+        )}
+        {state == "chhattisgarh" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "goa" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "gujarat" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "haryana" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "jharkhand" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "himachal pradesh" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "karnataka" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "kerala" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "madhya pradesh" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "maharashtra" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "manipur" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "meghalaya" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "mizoram" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "nagaland" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "odisha" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "punjab" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "rajasthan" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "sikkim" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "tamil nadu" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "telangana" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "tripura" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "uttar pradesh" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "uttarakhand" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "west bengal" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "andaman and nicobar islands" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "delhi" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "puducherry" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "ladakh" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "jammu and kashmir" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+        {state == "dadra and nagar haveli and daman and diu" ? (
+          <>
+            <Card
+              name={"tejas Jain"}
+              image={"bdhfhgghg"}
+              rating={2.6}
+              locations={["Agra", "Delhi"]}
+            />
+          </>
+        ) : (
+          <></>
+        )}
+      </div>
     </>
   );
 };
